@@ -8,4 +8,5 @@ Return k after placing the final result in the first k slots of nums.
 
 Do not allocate extra space for another array. You must do this by modifying the input array in-place with O(1) extra memory.
 
-# I have to use in-place technic since the original array must be modified through removing duplicates
+# Solution
+I have to use in-place technic since the original array must be modified through removing duplicates. In addition, it will need two pointers one that starts from the beginning and one that is always on step ahead and switches everytime a difference of values occurs.
